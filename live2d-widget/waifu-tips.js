@@ -105,13 +105,13 @@ function loadWidget(config) {
 		let text;
 		if (location.pathname === "/") { // 如果是主页
 			const now = new Date().getHours();
-			if (now > 5 && now <= 7) text = "Morning! Have a good day?";
-			else if (now > 7 && now <= 11) text = "Ah, don't forget to follow me！";
-			else if (now > 11 && now <= 13) text = "Ah, don't forget to follow me！";
-			else if (now > 13 && now <= 17) text = "Ah, don't forget to follow me！";
-			else if (now > 17 && now <= 19) text = "Ah, don't forget to follow me！";
+			if (now > 5 && now <= 7) text = "Morning! Have a good day! ";
+			else if (now > 7 && now <= 11) text = "Ah, don't forget to follow Drownyhl！";
+			else if (now > 11 && now <= 13) text = "Ah, don't forget to follow Drownyhl！";
+			else if (now > 13 && now <= 17) text = "Ah, don't forget to follow Drownyhl！";
+			else if (now > 17 && now <= 19) text = "Ah, don't forget to follow Drownyhl！";
 			else if (now > 19 && now <= 21) text = "How was your day？";
-			else if (now > 21 && now <= 23) text = ["Ah, don't forget to follow me！"];
+			else if (now > 21 && now <= 23) text = ["Ah, don't forget to follow Drownyhl！"];
 			else text = "Haven't you slept？";
 		} else if (document.referrer !== "") {
 			const referrer = new URL(document.referrer),
