@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://drownyhl.github.io/posts/199417d6/</loc>
-    
-    <lastmod>2022-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://drownyhl.github.io/posts/172536/</loc>
     
     <lastmod>2022-04-23</lastmod>
@@ -21,6 +12,15 @@
   
   <url>
     <loc>https://drownyhl.github.io/posts/67379905/</loc>
+    
+    <lastmod>2022-04-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://drownyhl.github.io/posts/199417d6/</loc>
     
     <lastmod>2022-04-23</lastmod>
     
